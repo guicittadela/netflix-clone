@@ -1,0 +1,114 @@
+:root{
+    --vermelho: #e50914;
+    --preto: #141414;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*elementos base*/
+body{
+    background: var(--preto);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    
+}
+
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black';
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color:  #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/*filme principal*/
+
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/filmes/capa-house.jpg');
+
+    height: 500px;
+    background-size: cover;
+
+    display: flex; /* joga os elementos por padrão em linha  "flex-direction: row";*/
+    flex-direction: column; /*joga os elementos em coluna*/
+    justify-content: center; /*segue a direção do flex direction, no caso fica no meio da coluna*/
+    align-items: flex-start;/*os elementos começam a esquerda*/
+
+    /* ou seja aqui foi feito primeiro o alinhamento em linha com o comando "dysplay: flex;"
+depois alinhados em coluna, depois foi justificado ao centro da coluna
+e por fim os elementos são jogados a esquerda com o comando "align-items: flex-star";. Caso 
+quiser a direita usar "flex-end"*/
+}
+
+.filme-principal .descricao{
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.filme-principal .titulo{
+    margin-top: 15%;  
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* font awesome site*/
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: whitesmoke;
+    padding: 15px 30px ; /*espaço interno do elemento. leitura em sentido horário primeiro valor eixo x e segundo eixo y*/
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;     /* muda o cursor do mouse*/
+    transition: .3s ease all;   /* efeito de transição,*/
+}
+
+.botao:hover{             /* cria um efeito que inverte as cores do botão*/
+    background-color: white;
+    color: black;
+}
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 30px;
+}
+
+.filme-principal .container{
+    width: 80%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 15px;
+}
