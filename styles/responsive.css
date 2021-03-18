@@ -13,12 +13,7 @@
 
 @media screen and (min-width: 100px){
     .descricao{
-        width: 30%;
+        width: 80%;
     }
 }
 
-@media screen and (max-width: 500px){
-    .descricao{
-        width: 30%;
-    }
-}
