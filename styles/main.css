@@ -46,7 +46,7 @@ header nav a:hover{
 
 .filme-principal {
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/filmes/capa-house.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/inter-vs-barça.jpg');
 
     height: 500px;
     background-size: cover;
@@ -111,4 +111,83 @@ quiser a direita usar "flex-end"*/
 
 .carrosel-filmes{
     margin-top: 15px;
+}
+
+.times{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 5px;  
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: center;
+    color: #AAA;
+}
+
+.carrosel-competitions{
+    margin-top: 20px;
+    
+}
+
+.competitions{
+    width: 90px;
+    padding: 1px;
+}
+
+.social-media{
+    margin-left: 15px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    display: flex;
+    
+}
+
+.insta{
+    color: #AAA;
+    margin: 5px;
+}
+.facebook{
+    color: #AAA;
+    margin: 5px;
+}
+.youtube{
+    color: #AAA;
+    margin: 5px;
+}
+.twitter{
+    margin: 5px;
+    color: #AAA;
+}
+
+.rodape{
+    font-size: 11px;
+    color: #AAA;
+    width: 80%;
+    height: 50px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding:0px 15px;
+    
+}
+.contact{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: whitesmoke;
+    padding: 5px 5px ; /*espaço interno do elemento. leitura em sentido horário primeiro valor eixo x e segundo eixo y*/
+    margin-left: 15px;
+    margin-bottom: 25px;
+    font-size: 12px;
+
+    cursor: pointer;     /* muda o cursor do mouse*/
+    transition: .3s ease all;   /* efeito de transição,*/
+}
+.contact:hover{             /* cria um efeito que inverte as cores do botão*/
+    background-color: white;
+    color: black;
+}
+
+.final{
+    font-size: 9px;
+    margin-left: 15px;
+    color: #AAA;
 }
