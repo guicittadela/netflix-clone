@@ -11,15 +11,13 @@
     }
     footer{
         display: none;
+    }
 }
 
 @media screen and (min-width: 100px){
+
     .descricao{
         width: 80%;
-    }
-    
-    }
-
-    }
+        }
 }
-
+    
