@@ -1,3 +1,5 @@
-Primeiro commit da página clone da netflix
+Primeira transição de netflix clone para Futflix
 
-ideia de transformar em uma netflix de jogos históricos de futebol!
+acesse para visualizar: 
+
+https://guicittadela.github.io/netflix-clone/
