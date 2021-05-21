@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 /*elementos base*/
 body{
@@ -65,6 +66,7 @@ quiser a direita usar "flex-end"*/
 .filme-principal .descricao{
     margin-bottom: 40px;
     margin-top: 10px;
+    width: 300px;
 }
 
 .filme-principal .titulo{
@@ -72,16 +74,54 @@ quiser a direita usar "flex-end"*/
     font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.box2 .descricao{
+    margin-bottom: 40px;
+    margin-top: 10px;
+    width: 300px;
+    
+    
+}
 
+.box2 .titulo{
+    margin-top: 15px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.box2{
+    display: flex;
+    flex-direction:row;
+    
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("img/inter-vs-barça\ 2.jpg");
+    width: auto;
+    margin: 50px;
+ 
+    
+    
+    
+}
+
+iframe{
+    width: 1000px;
+    height: 600px;
+   
+}
+
+.sobre{
+    
+    padding: 30px;
+}
 /* font awesome site*/
 
-.botao{
+
+.botao {
     background-color: rgba(0,0,0,.50);
     border: none;
     color: whitesmoke;
     padding: 15px 30px ; /*espaço interno do elemento. leitura em sentido horário primeiro valor eixo x e segundo eixo y*/
     margin-right: 15px;
     font-size: 12px;
+    text-decoration: none;
 
     cursor: pointer;     /* muda o cursor do mouse*/
     transition: .3s ease all;   /* efeito de transição,*/
@@ -191,3 +231,4 @@ quiser a direita usar "flex-end"*/
     margin-left: 15px;
     color: #AAA;
 }
+
